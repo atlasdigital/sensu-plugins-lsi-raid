@@ -18,6 +18,9 @@ script:
 - bundle exec rake default
 - gem build sensu-plugins-lsi-raid.gemspec
 - gem install sensu-plugins-lsi-raid-*.gem
+addons:
+    code_climate:
+        repo_token: 0366474e1d44dca0a57cd6e537e9d88c764a6bf90069d55e718eb19f69af0fee
 # deploy:
 #   provider: rubygems
 #   api_key:
