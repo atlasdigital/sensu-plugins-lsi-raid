@@ -1,0 +1,30 @@
+
+MethodLength:
+  Max: 100
+
+LineLength:
+  Max: 120
+
+AbcSize:
+  Max: 150
+
+FileName:
+  Enabled: false
+
+PerceivedComplexity:
+  Enabled: false
+
+CyclomaticComplexity:
+  Enabled: false
+
+ClassLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+HashSyntax:
+  Enabled: false
+
+ParenthesesAsGroupedExpression:
+  Enabled: false
